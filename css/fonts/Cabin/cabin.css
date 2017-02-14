@@ -1,0 +1,74 @@
+/*
+@font-face {
+    font-family: 'Cabin';
+    src: url('./Bold/Cabin-Bold-TTF.eot'),
+         url('./Bold/Cabin-Bold-TTF.svg#Cabin') format('svg'),
+         url('./Bold/Cabin-Bold-TTF.woff') format('woff'),
+         url('./Bold/Cabin-Bold-TTF.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./Bold-Italic/Cabin-BoldItalic-TTF.eot'),
+         url('./Bold-Italic/Cabin-BoldItalic-TTF.svg#Cabin') format('svg'),
+         url('./Bold-Italic/Cabin-BoldItalic-TTF.woff') format('woff'),
+         url('./Bold-Italic/Cabin-BoldItalic-TTF.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./Italic/Cabin-Italic-TTF.eot'),
+         url('./Italic/Cabin-Italic-TTF.svg#Cabin') format('svg'),
+         url('./Italic/Cabin-Italic-TTF.woff') format('woff'),
+         url('./Italic/Cabin-Italic-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./Medium/Cabin-Medium-TTF.eot'),
+         url('./Medium/Cabin-Medium-TTF.svg#Cabin') format('svg'),
+         url('./Medium/Cabin-Medium-TTF.woff') format('woff'),
+         url('./Medium/Cabin-Medium-TTF.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./Regular/Cabin-Regular-TTF.eot'),
+         url('./Regular/Cabin-Regular-TTF.svg#Cabin') format('svg'),
+         url('./Regular/Cabin-Regular-TTF.woff') format('woff'),
+         url('./Regular/Cabin-Regular-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+@font-face {
+    font-family: 'Cabin';
+    src: url('./SemiBold/Cabin-SemiBold-TTF.eot'),
+         url('./SemiBold/Cabin-SemiBold-TTF.svg#Cabin') format('svg'),
+         url('./SemiBold/Cabin-SemiBold-TTF.woff') format('woff'),
+         url('./SemiBold/Cabin-SemiBold-TTF.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('./SemiBold-Italic/Cabin-SemiBoldItalic-TTF.eot'),
+         url('./SemiBold-Italic/Cabin-SemiBoldItalic-TTF.svg#Cabin') format('svg'),
+         url('./SemiBold-Italic/Cabin-SemiBoldItalic-TTF.woff') format('woff'),
+         url('./SemiBold-Italic/Cabin-SemiBoldItalic-TTF.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}*/

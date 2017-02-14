@@ -1,0 +1,108 @@
+
+
+/*@font-face {
+    font-family: Cabin;
+    src: url('fonts/Cabin/Regular/Cabin-Regular-TTF.eot'),
+         url('fonts/Cabin/Regular/Cabin-Regular-TTF.svg#Cabin') format('svg'),
+         url('fonts/Cabin/Regular/Cabin-Regular-TTF.woff') format('woff'),
+         url('fonts/Cabin/Regular/Cabin-Regular-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+
+
+.header-img
+{
+    background-color: transparent;
+    /*background-image: url("../img/DSC_0455.JPG");*/
+    /*background-size:cover;*/
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    padding: 0 0 80px;
+}
+
+.static-header
+{
+    border-bottom: 1px solid #f2f2f2;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.header-text
+{
+    /*font-family: 'Abel', sans-serif;*/
+    font-family: 'Cabin', sans-serif;
+    font-size: large;
+    color:rgb(255, 255, 255);
+}
+
+.parallax-mirror {
+    z-index:1
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.parallax-container {
+  height: 500px;
+  width: 100%;
+}
+
+.social-media {
+    text-align: right;
+    /*color: rgb(255,255,255);*/
+}
+
+.icon-ref {
+    color: rgb(255,255,255);
+    font-size: large;
+    margin: 5px;
+}
+
+.icon-ref:hover {
+    color:#FD9F62;
+}
+
+.movable-header {
+    height: 80px;
+}
+
+.main-navmenu {
+    height: 100%;
+}
+
+.logo-container {
+    /*padding: 10px;*/
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    text-align: left;
+    vertical-align: middle;
+    font-family: 'Abel', sans-serif;
+}
+
+.logo-svg {
+    width: 150%;
+    height: 100%;
+    vertical-align:top;
+}
+
+.main-navmenu div {
+    height: 100%;
+}
+
+.bar-title {
+    height: 100%;
+    vertical-align:middle;
+    /*padding-top:-50%;*/
+    display: flex;
+    /*justify-content: center;*/ /* align horizontal */
+    align-items: center; /* align vertical */
+}
+/*
+.header-text {
+    padding: 20px
+}*/

@@ -7,10 +7,13 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet"> 
         <!-- <link rel="stylesheet" type="text/css" href="fonts/Cabin/cabin.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,600,600i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
+        <link rel="stylesheet" href="bower_components/xterm.js/dist/xterm.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-
+        <link rel="stylesheet" type="text/css" href="css/buttons.css">
     </head>
     <body>
         <!-- <div>
@@ -40,69 +43,380 @@
         </div> -->
         <!-- <div class="parallax-mirror" data-parallax="scroll" data-image-src="img/DSC_0455.JPG"> -->
          <!-- <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/stellar-spire-eagle-nebula-1400x900.jpg" data-natural-width="1400" data-natural-height="900"></div> -->
-        <div class="header-img" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/DSC_0513.JPG" data-natural-width="6016" data-natural-height="4000" data-position-y="-250px">
-            <div class="static-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <div class="header-text">
-                                <span>
-                                    Edgar Andrés Margffoy Tuay
-                                </span>
+        <div class="header-container">
+            <div class="header-img" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/DSC_0513.JPG" data-natural-width="6016" data-natural-height="4000" data-position-y="-250px">
+                <div class="static-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="header-text">
+                                    <span>
+                                        Edgar Andrés Margffoy Tuay
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="social-media">
-                                <div class="row">
-                                    <a class="icon-ref" href="https://github.com/andfoy">
-                                        <i class="fa fa-github"></i>
-                                    </a>
-                                    <a class="icon-ref" href="mailto:andfoy@gmail.com">
-                                        <i class="fa fa-envelope"></i>
-                                    </a>
-                                    <a class="icon-ref" href="https://twitter.com/andfoy4">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a class="icon-ref" href="http://stackoverflow.com/users/1143629/andfoy">
-                                        <i class="fa fa-stack-overflow"></i>
-                                    </a>
+                            <div class="col-sm-4">
+                                <div class="social-media">
+                                    <div class="row">
+                                        <a class="icon-ref" href="https://github.com/andfoy">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                        <a class="icon-ref" href="mailto:andfoy@gmail.com">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                        <a class="icon-ref" href="https://twitter.com/andfoy4">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a class="icon-ref" href="http://stackoverflow.com/users/1143629/andfoy">
+                                            <i class="fa fa-stack-overflow"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="movable-header">
-                <div class="main-navmenu bar-fixed">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="container-fluid">
-                                    <div class="logo-container">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <img class="logo-svg" src="img/Logo_White.svg">
+                <div class="movable-header">
+                    <div class="main-navmenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="container-fluid">
+                                        <div class="logo-container">
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <img class="logo-svg" src="img/Logo_White.svg">
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <span class="bar-title">
+                                                        Zephyrus
+                                                    </span>
+                                                </div>
                                             </div>
-                                            <div class="col-sm-9">
-                                                <span class="bar-title">
-                                                    Zephyrus
-                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-9">
+                                    <!-- <div class="section-container"> -->
+                                        <ul class="options-wrapper">
+                                            <li><a href="">Login</a></li>
+                                            <li><a href="#demos">Demos</a></li>
+                                            <li><a href="#projects">Projects</a></li>
+                                            <li><a href="#about">About Me</a></li>
+                                            <li><a href="#">Home</a></li>
+                                        </ul>
+                                        <!-- <div class="row"> -->
+                                        <!-- <a class="menu-option">
+                                            <span class="menu-option">
+                                                Option 1
+                                         -->    <!-- </span> -->
+                                        <!-- </a> -->
+                                        <!-- </div> -->
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="center-heading">Welcome!</h1>
+                            <p class="intro-text">
+                              Thanks for visiting my personal page, here you will find more information about my projects, interests and hobbies.
+                            </p>
+                            <div class="contact-buttons">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <a id="resume" class="custom-btn btn-4" href="docs/Resume_2017.pdf">Resumé</a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a id="contact" class="custom-btn btn-4" href="mailto:andfoy@gmail.com">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-text">
+                                <a id="header-advance" href="#about" class="alt-btn alt-btn-circle page-scroll">
+                                    <i class="fa fa-angle-double-down animated"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <!-- <div class="navbar navbar-default">
+                </div> -->
+            </div>
+            <!-- <div class="section-block bg-gray"></div> -->
+        </div>
+        <div id="about" class="section-block bg-gray top-line bottom-line">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 border-right">
+                            <div class="col-md-6">
+                                <div class="pic-container">
+                                    <div class="profile-pic">
+                                        <img class="profile-crop img-bg" src="img/Glasses.JPG">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="profile-info">
+                                    <h3>Edgar Andrés Margffoy Tuay</h3>
+                                    <h4>Programmer, Designer, DIY Geek, History Reader</h4>
+                                    <small>
+                                        I'm 20 years old and I live in a wonderful country named Colombia. Computer programming is one of my greatest passions in life, I also like to cook and travel, I enjoy a lot reading  about general human knowledge and prototyping electronic DIY gadgets.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="topic-container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="topic">
+                                            <div class="topic-img-container">
+                                                <img class="topic-img" src="img/gears.svg" alt="">
+                                            </div>
+                                            <div class="topic-name">
+                                                <h4>Programming Language Theory</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="topic">
+                                            <div class="topic-img-container">
+                                                <img class="topic-img" src="img/cv.svg" alt="">
+                                            </div>
+                                            <div class="topic-name">
+                                                <h4>Computer Vision</h4>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="topic">
+                                        <div class="topic-img-container">
+                                            <img class="topic-img" src="img/NN.svg" alt="">
+                                        </div>
+                                        <div class="topic-name">
+                                            <h4>Neural Networks</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="topic" style="padding-top: 50px;">
+                                        <div class="topic-img-container">
+                                            <img class="topic-img" src="img/Fourier.svg" alt="">
+                                        </div>
+                                        <div class="topic-name">
+                                            <h4>DSP</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="section-sep" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="./img/DSC_0455.JPG" data-natural-width="6016" data-natural-height="4000">
+            <div class="container">
+                <div class="row">
+                    <h1 class="center-heading section-title">Projects</h1>
+                </div>
+            </div>
+        </div>
+        <div id="projects" class="section-block bg-white bottom-line top-line line-orange">
+            <div class="container">
+                <div class="project-list">
+                    <div class="row">
+                        <div class="project-frame">
+                            <div class="project-container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="project-img-container">
+                                            <img class="project-img" src="img/timed.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="project-info">
+                                            <h4>Personalized Medicine <a class="github-project" href="https://github.com/TiMed-dev"><i class="fa fa-github"></i></a></h4>
+                                            <p>TIMed (2016-Present)</p>
+                                            <span class="project-description">
+                                            This award-winning system allows to recommend the drugs and prescriptions best suited to patients who
+suffer chronic arthritis based on their medical history along with laboratory tests. The project was winner
+of a 700USD grant given by ElConcurso innovation contest at the University of Los Andes.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="project-frame">
+                            <div class="project-container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="project-img-container">
+                                            <img id="hcl" class="project-img" src="img/HCL.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="project-info">
+                                            <h4>Compiler Design <a class="github-project" href="https://github.com/gamma-plt/HCL"><i class="fa fa-github"></i></a></h4>
+                                            <p>HCL (2016-Present)</p>
+                                            <span class="project-description">
+                                            Python-based implementation of a compiler for
+Dijkstra's Guarded Command Language (GCL).</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="project-frame">
+                            <div class="project-container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="project-img-container">
+                                            <img id="hcl" class="project-img" src="img/cv.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="project-info">
+                                            <h4>Computer Vision</h4>
+                                            <p>ComprVis (2014)</p>
+                                            <span class="project-description">
+                                            Store Point-of-Sale based on client facial
+recognition to restore discount points.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="project-frame">
+                            <div class="project-container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="project-img-container">
+                                            <img id="hcl" class="project-img" src="img/Tank.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <div class="project-info">
+                                            <h4>Robotics <a class="github-project" href="https://github.com/gamma-plt/HCL"><i class="fa fa-github"></i></a></h4>
+                                            <p>Self-Driving Tank (2013)</p>
+                                            <span class="project-description">
+                                            Self-driving vehicle based on image
+processing and Feed-Forward NNs</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- </div> -->
-            <!-- <div class="navbar navbar-default">
-            </div> -->
         </div>
+        <div class="section-sep-ns">
+            <div class="container">
+                <div class="row">
+                    <h1 class="center-heading section-title contrast">Demos</h1>
+                </div>
+            </div>
+        </div>
+        <div id="demos" class="section-block bg-white bottom-line top-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row calc">
+      <!-- <div class="col-sm-6"> -->
+        <h3 id="title">Calculadora</h3>
+        <p>Ingresar una expresión aritmética bien formada</p>
+        <hr>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-xs-3">
+              <label class="control-label" for="exprLbl">Expresión:</label>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group" id="expr_input">
+                <input type="text" placeholder="" class="form-control" id="expr" />
+                <span id="expr_verification"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-3">
+              <label class="control-label" for="exprLbl">Resultado:</label>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group" id="result_output">
+                <input type="text" placeholder="" class="form-control" id="result" readonly/>
+                <span id="result_verification"></span>
+              </div>
+            </div>
+          </div>
+          <p id="test"></p>
+        </div>
+      <!-- </div> -->
+    </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="terminal-container"></div>
+                        <div>
+            <div class="row">
+                <div class="col-md-6">
+                  <h2>Options</h2>
+                  <p>
+                    <label><input type="checkbox" id="option-cursor-blink"> cursorBlink</label>
+                  </p>
+                  <p>
+                    <label>scrollback <input type="number" id="option-scrollback" value="1000" /></label>
+                  </p>
+                  <p>
+                    <label>tabStopWidth <input type="number" id="option-tabstopwidth" value="8" /></label>
+                  </p>
+                </div>
+            <div class="col-md-6">
+            <div>
+
+            <h3>Size</h3>
+            <div>
+              <div style="display: inline-block; margin-right: 16px;">
+                <label for="cols">Columns</label>
+                <input type="number" id="cols" />
+              </div>
+              <div style="display: inline-block; margin-right: 16px;">
+                <label for="rows">Rows</label>
+                <input type="number" id="rows" />
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                        Copyright © 2017 <a href="http://margffoy-tuay.com"><strong>Edgar Andrés Margffoy Tuay</strong></a>. All Right Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous"></script>
@@ -110,5 +424,16 @@
         <script src="https://use.fontawesome.com/a53a47a448.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.4.2/parallax.min.js"></script> -->
         <script src="bower_components/parallax.js/parallax.js"></script>
+        <script src="bower_components/jquery-color/jquery.color.js" type="text/javascript" charset="utf-8"></script>
+        <script src="bower_components/jquery-smooth-scroll/jquery-smooth-scroll.js" type="text/javascript" charset="utf-8"></script>
+        <script src="bower_components/xterm.js/dist/xterm.js" type="text/javascript" charset="utf-8"></script>
+        <!-- <script src="/build/xterm.js" ></script> -->
+        <script src="bower_components/xterm.js/dist/addons/attach/attach.js" ></script>
+        <script src="bower_components/xterm.js/dist/addons/fit/fit.js" ></script>
+        <script src="bower_components/xterm.js/dist/addons/fullscreen/fullscreen.js" ></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js" type="text/javascript" charset="utf-8"></script> -->
+        <script src="js/main.js"></script>
+        <script src="js/calc.js"></script>
+        <script src="js/term.js"></script>
     </body>
 </html>
